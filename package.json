@@ -25,7 +25,16 @@
   },
   "homepage": "https://github.com/actions/javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5"
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "source-map-support": "^0.5.21",
+    "stack-utils": "^2.0.5",
+    "string-length": "^5.0.1",
+    "string-width": "^5.0.1",
+    "strip": "^3.0.0",
+    "strip-ansi": "^7.0.1",
+    "strip-bom": "^5.0.0",
+    "strip-final-newline": "^3.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1",
