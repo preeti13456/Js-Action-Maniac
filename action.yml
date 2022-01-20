@@ -1,8 +1,8 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'Preeti Sharma'
+description: 'Providing Notifications'
 inputs:
   milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+    description: '10'
     required: true
     default: '1000'
 outputs:
