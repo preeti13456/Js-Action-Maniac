@@ -8334,7 +8334,7 @@ module.exports = require("fs");
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("http");
+const http = require("http");
 
 /***/ }),
 
