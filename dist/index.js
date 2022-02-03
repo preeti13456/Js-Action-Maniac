@@ -4662,7 +4662,7 @@ function getTotalBytes(instance) {
 		return body.size;
 	} else if (Buffer.isBuffer(body)) {
 		// body is buffer
-		return body.length;
+		return body.size;
 	} else if (body && typeof body.getLengthSync === 'function') {
 		// detect form data input from form-data module
 		if (body._lengthRetrievers && body._lengthRetrievers.length == 0 || // 1.x
